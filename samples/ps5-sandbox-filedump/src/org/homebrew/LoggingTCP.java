@@ -7,7 +7,7 @@ import java.net.Socket;
 public class LoggingTCP {
     private static LoggingTCP instance = null;
     private static Socket sock = null;
-    public static final String host = "192.168.1.135";
+    public static final String host = "192.168.1.123";
     public static final int port = 18194;
 
     private LoggingTCP() {
